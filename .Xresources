@@ -1,0 +1,2 @@
+URxvt.font:     xft:InconsolataForPowerline Nerd Font:size=13:antialias=true
+URxvt.boldFont: xft:InconsolataForPowerline Nerd Font:bold:size=13:antialias=true
