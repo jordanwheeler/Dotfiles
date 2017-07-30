@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/jordan/.config'
+let g:netrw_dirhist_2='/home/jordan/.config/chromium'
+let g:netrw_dirhist_3='/home/jordan/.config/nvim'
+let g:netrw_dirhist_4='/home/jordan/.config/nvim/plugged'
+let g:netrw_dirhist_5='/home/jordan/.config/nvim/plugged/vim-airline-themes'
+let g:netrw_dirhist_6='/home/jordan/.config/nvim/plugged'
+let g:netrw_dirhist_7='/home/jordan/.config/nvim/plugged/vim-colors-solarized'
+let g:netrw_dirhist_8='/home/jordan/.config/nvim/plugged/vim-colors-solarized/autoload'
