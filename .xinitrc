@@ -58,6 +58,8 @@ wal -i "$(< "${HOME}/.cache/wal/wal")"
 # set the wallpaper after wal runs
 feh --bg-scale ~/Downloads/'Ascent (Final).png'
 
+xinput set-prop "ImPS/2 Generic Wheel Mouse" "libinput Scroll Method Enabled" 0 0 1
+
 xscreensaver -no-splash &
 
 exec i3

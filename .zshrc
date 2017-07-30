@@ -82,22 +82,20 @@ plugins=(git github ruby rails github z zsh-syntax-highlighting colorize colored
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+setopt NO_BEEP
 
 # Import colorscheme from 'wal'
 (wal -r &)
-
-exec /etc/1pass/1pass 1>/dev/null &
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-export EDITOR='vim'
+export EDITOR='nvim'
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-
-# required for my hacky version of rxvt-unicode: https://github.com/blueyed/rxvt-unicode/tree/wcwidth-hack
-export LD_PRELOAD=/usr/lib/urxvt/rxvtwcwidth.so
 
 source $ZSH/oh-my-zsh.sh
 
