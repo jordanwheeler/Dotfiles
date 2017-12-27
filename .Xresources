@@ -1,11 +1,14 @@
-!-------------------------------------------------------------------------------
+!-:-:
 ! Xft settings
 !-------------------------------------------------------------------------------
 
 Xft.dpi:                    166
 Xft.rgba:                   rgb
+Xft.autohint:               false
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
+Xft.lcdfilter:              lcddefault
+Xft.antialias:              true
 
 !-------------------------------------------------------------------------------
 ! URxvt settings
@@ -26,12 +29,11 @@ URxvt.internalBorder:       3
 URxvt.lineSpace:            0
 
 ! Fonts
-!URxvt.allow_bold:           false
 URxvt*font: xft:Inconsolata for Powerline:pixelsize=20
-URxvt*boldFont: xft:Inconsolata for Powerline:pixelsize=20
+URxvt*boldFont: xft:Inconsolata Bold for Powerline:pixelsize=20
 
 ! Fix font space
-URxvt*letterSpace: -1
+!URxvt*letterSpace: -1
 
 ! Scrollbar
 URxvt.scrollStyle:          rxvt
